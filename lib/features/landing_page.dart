@@ -7,18 +7,29 @@ class LandingPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Image.asset(
-            'logo.png', 
-            width: 50,
-            height: 50,
-          ),
-          SizedBox(height: 20), 
-          TextField(
-            decoration: InputDecoration(
-              hintText: 'Welcome to ambatu.help',
+          Align(
+            alignment: Alignment.center,
+            child: Image.asset(
+              'lib/features/logo.png',
+              width: 250,
+              height: 250,
             ),
           ),
+          SizedBox(height: 20), 
+          Center(
+            child: TextField(
+              textAlign: TextAlign.center,
+              decoration: InputDecoration(
+                hintText: 'Welcome to Ambatu.help',
+                hintStyle: TextStyle(fontSize: 20),
+                border: InputBorder.none,
+              ),
+            ),
+          ),
+          SizedBox(height: 10),
+          CircularProgressIndicator(),
         ],
       ),
     );
