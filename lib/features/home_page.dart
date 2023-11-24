@@ -28,7 +28,6 @@ class _ChatDetailPageState extends State<ChatDetailPage> {
     ChatMessage(message: "In Flutter, app design starts with organizing UI elements as Widgets which can be combined to build up any UI, from simple to complex. Common Widgets include Containers to lay out and style elements, Text for displaying text content, Images to include pictures, Buttons for user interaction and many more. Designs are prototyped by nesting these Widgets with specific properties in code, allowing for rapid iteration as visual changes take effect instantly once hot reloaded in the emulator or device.", type: MessageType.Receiver),
     ChatMessage(message: "How is Flutter different from other programming languages?", type: MessageType.Sender),
     ChatMessage(message: "Unlike traditional frameworks, Flutter uses its own widget-based reactive framework that allows building native UIs instead of web views for both Android and iOS with a single codebase. It compiles to native code instead of interpreting at runtime, providing smooth performance on par with native development. Flutter also introduces the declarative programming style with widgets, streamlining the development process and simplifying complex UI logic through its reactive approach.", type: MessageType.Receiver),
-    ChatMessage(message: "How is Flutter different from other programming languages?", type: MessageType.Sender),
   ];
 
   List<SendMenuItems> menuItems = [
@@ -36,7 +35,6 @@ class _ChatDetailPageState extends State<ChatDetailPage> {
     SendMenuItems(text: "Document", icons: Icons.insert_drive_file, color: Colors.blue),
     SendMenuItems(text: "Audio", icons: Icons.music_note, color: Colors.orange),
     SendMenuItems(text: "Location", icons: Icons.location_on, color: Colors.green),
-    SendMenuItems(text: "Contact", icons: Icons.person, color: Colors.purple),
   ];
 
   void showModal(){
