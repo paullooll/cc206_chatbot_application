@@ -13,7 +13,7 @@ class LandingPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Image.asset(
-                'lib/features/logo.png',
+                'assets/images/logo.png',
                 width: 250,
                 height: 250,
               ),
