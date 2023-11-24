@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:cc206_chatbot_application/features/login/button.dart';
-import 'package:cc206_chatbot_application/features/login/text.dart';
-import 'package:cc206_chatbot_application/features/signup_page.dart';
+import 'package:cc206_chatbot_application/login/button.dart';
+import 'package:cc206_chatbot_application/login/text.dart';
+import 'package:cc206_chatbot_application/components/signup_page.dart';
 
 
 void main() {
