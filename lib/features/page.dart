@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ui_chatbot/features/login_page.dart';
-import 'package:ui_chatbot/features/signup_page.dart';
+import 'package:cc206_chatbot_application/features/login_page.dart';
+import 'package:cc206_chatbot_application/features/signup_page.dart';
 
 
 class Page1 extends StatefulWidget {
