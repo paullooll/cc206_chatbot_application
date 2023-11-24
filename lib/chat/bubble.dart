@@ -1,7 +1,7 @@
 // ignore_for_file: library_private_types_in_public_api
 
-import 'package:ui_chatbot/features/chat/chatmessage.dart';
-import 'package:ui_chatbot/features/home_page.dart';
+import 'package:cc206_chatbot_application/features/chat/chatmessage.dart';
+import 'package:cc206_chatbot_application/features/home_page.dart';
 import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
