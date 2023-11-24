@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ui_chatbot/features/landing_page.dart'; 
-import 'package:ui_chatbot/features/page.dart';
+import 'package:cc206_chatbot_application/features/landing_page.dart'; 
+import 'package:cc206_chatbot_application/features/page.dart';
 
 
 void main() {
