@@ -1,10 +1,10 @@
 // ignore_for_file: constant_identifier_names
 
 import 'package:flutter/material.dart';
-import 'package:cc206_chatbot_application/features/chat/chatdetails.dart';
-import 'package:cc206_chatbot_application/features/chat/chatmessage.dart';
-import 'package:cc206_chatbot_application/features/chat/sendmenu.dart';
-import 'package:cc206_chatbot_application/features/chat/bubble.dart';
+import 'package:cc206_chatbot_application/chat/chatdetails.dart';
+import 'package:cc206_chatbot_application/chat/chatmessage.dart';
+import 'package:cc206_chatbot_application/chat/sendmenu.dart';
+import 'package:cc206_chatbot_application/chat/bubble.dart';
 
 enum MessageType{
   Sender,
