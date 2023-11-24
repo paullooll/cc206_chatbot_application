@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ui_chatbot/features/home_page.dart';
+import 'package:cc206_chatbot_application/features/home_page.dart';
 
 class RoundedCircularButton extends StatelessWidget {
   final String text;
