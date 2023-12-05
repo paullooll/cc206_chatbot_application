@@ -1,5 +1,5 @@
-import 'package:chatter/pages/landing_page.dart';
-import 'package:chatter/pages/login.dart';
+import 'package:chatter/features/landing_page.dart';
+import 'package:chatter/features/login.dart';
 import 'package:flutter/material.dart';
 
 void main() {
